@@ -1,0 +1,33 @@
+
+	java:S112Ó"FDefine and throw a dedicated exception instead of using a generic one.(Ó‰‡³úÿÿÿÿ8×¨¡ÀÊ2J$f35d1836-b1c8-4a3c-ae6d-f5af4fb55b80
+	java:S112í"FDefine and throw a dedicated exception instead of using a generic one.(–÷ìşúÿÿÿÿ8Ø¨¡ÀÊ2J$22231c89-cd7f-449a-bfb1-41f64e77eab0
+ˆ	java:S112¢"FDefine and throw a dedicated exception instead of using a generic one.(àƒ‘i8Ø¨¡ÀÊ2J$fb5102a7-30eb-49ae-aeac-81814dce4edd
+‰	java:S112µ"FDefine and throw a dedicated exception instead of using a generic one.(ßúñœ8Ø¨¡ÀÊ2J$f569babc-fbb0-40e7-8ea5-73866834c37f
+¡
+java:S1845H"^Rename field "prestSiteRepo" to prevent any misunderstanding/clash with field "prestsiteRepo".(«ˆÏ¯8è¬¡ÀÊ2J$276fa444-a79b-4aad-8ed5-0a85c76c061a
+–
+java:S3776¾"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ØŞ©¨8ù¬¡ÀÊ2J$792fcb83-d610-4b64-b932-80ba538276bc
+
+java:S6809¬"UCall transactional methods via an injected dependency instead of directly via 'this'.(·Ì¨çÿÿÿÿÿ8ƒ­¡ÀÊ2J$50b9baaf-95ac-4f28-8cb1-1a2c66ce1a99
+•
+java:S3776¹"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ú¤8…­¡ÀÊ2J$c2891c2d-b91f-4ab6-a065-178f5a463b2a
+™
+java:S6809İ"UCall transactional methods via an injected dependency instead of directly via 'this'.(Ü†½8£­¡ÀÊ2J$59bdea3d-429e-46ae-9eb5-6309c79245a0
+p
+java:S1602ÿ",Remove useless curly braces around statement(—±é¯8»­¡ÀÊ2J$f80be13f-8e66-419b-92e1-1bd330f11b8f
+p
+java:S1602Œ",Remove useless curly braces around statement(Âš¼“8¤£ÀÊ2J$468eaaa7-7558-4502-9866-b9c99795250f
+‡
+java:S1854¢">Remove this useless assignment to local variable "specialite".(º¦â”úÿÿÿÿ8†¤£ÀÊ2J$018236b1-364e-4f3a-9b69-72548837e8fd
+x
+java:S1481¢"/Remove this unused "specialite" local variable.(º¦â”úÿÿÿÿ8¤£ÀÊ2J$51360e02-150c-4b0e-8188-28aad7e3ade5
+—
+java:S1602³"SRemove useless curly braces around statement and then remove useless return keyword(×Ôññ8‘¤£ÀÊ2J$9783c45b-36d9-4c13-8a39-62b31175516c
+–
+java:S3776ò"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ªÿâé8š¤£ÀÊ2J$196dfd49-626b-4b06-a08b-861a12ab43a6
+‚
+java:S1068=":Remove this unused "prestataireMotifMapper" private field.(€Êéøÿÿÿÿ8ú­¡ÀÊ2J$047cde8a-1343-4ae4-a1c1-6f37b0f3a1c0
+ƒ
+java:S1068>";Remove this unused "prestataireMotifService" private field.(‚ù·úüÿÿÿÿ8ú­¡ÀÊ2J$6ffebc9e-c1d9-4021-9a3a-51fc18820683
+y
+java:S1068D"1Remove this unused "prestsiteRepo" private field.(Íšºïüÿÿÿÿ8ü­¡ÀÊ2J$d546e7cd-e158-4a94-a9c4-d7862cc44cd7

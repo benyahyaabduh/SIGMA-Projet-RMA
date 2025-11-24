@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: ms-transverse-prestataire-new
+  config:
+    import: optional:configserver:${CONFIG-SERVER_URI:http://localhost:9101}
+  mvc:
+    async:
+      request-timeout: 5000
+  cloud:
+    config:
+      enabled: true
+    discovery:
+      enabled: true
+    service-registry:
+      auto-registration:
+        enabled: true
+    eureka:
+      client:
+        enabled: true
+        serviceUrl:
+          defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  threshold:
+    file: INFO
+  level:
+    org:
+      hibernate:
+        type: TRACE
+        SQL: DEBUG
+        type.descriptor:
+          sql: TRACE
+          sql.BasicBinder: TRACE
+        orm.jdbc.bind: TRACE

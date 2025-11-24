@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: ms-transverse-prestataire-new
+  config:
+    import: optional:configserver:${CONFIG-SERVER_URI:http://localhost:9101}
+  mvc:
+    async:
+      request-timeout: 5000 #millisecondes
+
+  server:
+    error:
+      include-message: always
+      include-binding-errors: always
+      include-stacktrace: on_param
+      include-exception: false
+    forward-headers-strategy: framework
+
+  springdoc:
+    swagger-ui:
+      path: /swagger-ui.html
+      version: 1.1
+      tagsSorter: alpha
+      operations-sorter: alpha
+      docExpansion: none
+    api-docs:
+      path: /v3/api-docs
+    packages-to-scan: com.rma.recouvrement.gestionusers.controllers
+    paths-to-match: /**
+
+management:
+  endpoints:
+    enabled-by-default: false
+
+logging:
+  threshold:
+    file: INFO
+  level:
+    org:
+      hibernate: INFO
+
+mail:
+  url: http://126.0.100.204/notification/services/mail-notification?wsdl
+
+sms:
+  url: http://126.0.100.204/notification/services/GestionSmsWs?WSDL

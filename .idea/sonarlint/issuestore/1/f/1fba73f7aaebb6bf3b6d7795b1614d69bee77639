@@ -1,0 +1,13 @@
+
+|
+java:S1118":Add a private constructor to hide the implicit public one.(û© R8ˆŸ’’¹2J$10cc35f7-49ff-48dd-8920-1e95af371e20
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(°™£ã8ŒŸ’’¹2J$4667e2aa-cc1a-41a6-a606-358f24b87034
+š
+java:S3776A"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(‰™ïˆÿÿÿÿÿ8ì§ ’¹2J$0023800e-643c-439c-a175-81672b29c149
+•
+java:S6204["RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ð§ ’¹2J$09b618d4-2b2f-45ca-9815-822360ea126a
+‰
+java:S6201O"FReplace this instanceof check and cast with 'instanceof String string'(þð†ò8ñ§ ’¹2J$ee5e5060-ae83-4383-ad5f-050fae96bc23
+Ž
+java:S6201U"FReplace this instanceof check and cast with 'instanceof Number number'(Ó©‹­øÿÿÿÿ8ò§ ’¹2J$7d6bfb39-2042-4962-a266-630d076d94ba

@@ -1,0 +1,58 @@
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+server:
+  port: 9089
+
+spring:
+  application:
+    name: ms-transverse-gestionuser
+  datasource:
+    url: jdbc:oracle:thin:@10.7.4.12:1560/TRANSPDB
+    username: SIGMARECOUV
+    password: SIGMARECOUV2025
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.OracleDialect
+        format_sql: true
+        show_sql: true
+        use_sql_comments: true
+    hibernate:
+      ddl-auto: none
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 5000
+            readTimeout: 5000
+
+cors:
+  urls: http://localhost:3000, *
+
+
+
+mail:
+  url: http://126.0.100.204/notification/services/mail-notification?wsdl
+
+sms:
+  url: http://126.0.100.204/notification/services/GestionSmsWs?WSDL
+
+logging:
+  level:
+    org:
+      hibernate:
+        type: INFO
+        SQL: INFO
+        type.descriptor:
+          sql: INFO
+          sql.BasicBinder: INFO
+        orm.jdbc.bind: INFO

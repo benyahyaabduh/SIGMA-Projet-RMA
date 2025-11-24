@@ -1,0 +1,18 @@
+server.port=9089
+spring.application.name=ms-transverse-prestataire
+
+spring.datasource.url=jdbc:oracle:thin:@srvbdd-dy.rmaassurance.com:1542/TRANSDB
+spring.datasource.username= PRESTATAIRE
+spring.datasource.password= PRESTATAIRE
+spring.datasource.driver-class-name= oracle.jdbc.OracleDriver
+spring.jpa.show-sql=true
+
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.Oracle10gDialect
+spring.jpa.hibernate.ddl-auto= none
+cors.urls= http://localhost:3000 , *
+
+microservice.prestataire.as400.name = MS-TRANSVERSE-PRESTATAIRE-AS400
+microservice.prestataire.as400.url = http://10.7.4.72:9087/transverse/prestataire/iard/AUXRIBPP00
+
+microservice.prestataire.sqlserver.name = MS-TRANSVERSE-PRESTATAIRE-BDC
+microservice.prestataire.sqlserver.url = http://10.7.4.72:9087/transverse/prestataire/bdc/api/tabtiers

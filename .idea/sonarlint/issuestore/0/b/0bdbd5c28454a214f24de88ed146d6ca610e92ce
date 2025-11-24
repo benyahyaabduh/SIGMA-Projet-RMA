@@ -1,0 +1,27 @@
+
+ˆ	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(ùËÎ8ÂØ‰’¹2J$c6146d66-07eb-4666-b540-78d6ab5b9b0a
+‰	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(€ö¬Õ8ÂØ‰’¹2J$1bf96131-08d5-46f6-a5f5-8d0076f70177
+	java:S112ª"FDefine and throw a dedicated exception instead of using a generic one.(ù©×Öıÿÿÿÿ8ÂØ‰’¹2J$6376ea2b-0091-4835-a791-2e42a2af366f
+	java:S112Ğ"FDefine and throw a dedicated exception instead of using a generic one.(±ÈŸüÿÿÿÿ8ÃØ‰’¹2J$321318b3-6ab5-4507-a215-3645cb553476
+‰	java:S112õ"FDefine and throw a dedicated exception instead of using a generic one.(æãæ”8ÃØ‰’¹2J$b6b90d49-cc72-45f6-8bab-1e82001effa8
+	java:S112•"FDefine and throw a dedicated exception instead of using a generic one.(ÖÀ‹¤ùÿÿÿÿ8ÃØ‰’¹2J$99d6051b-a3a3-47bf-a1a1-5d8218f92729
+‰	java:S112Ö"FDefine and throw a dedicated exception instead of using a generic one.(™Ÿø8ÃØ‰’¹2J$3a82e477-736c-40b1-90c3-ecb8cb83884d
+‰	java:S112ç"FDefine and throw a dedicated exception instead of using a generic one.(™´á„8üà¡’¹2J$5817e8d5-9af7-4ea6-9a51-0076b727b8cc
+‰	java:S112™"FDefine and throw a dedicated exception instead of using a generic one.(‰Ôõ°8üà¡’¹2J$8798bcdf-afca-45b4-8835-9ee52e4cf412
+‰	java:S112·"FDefine and throw a dedicated exception instead of using a generic one.(ÑÅ¬´8ÿÆèã¹2J$ab1eb4d6-1a0d-4445-8a72-73999f6dfda2
+Œ
+java:S1192"HDefine a constant instead of duplicating this literal "libelle" 3 times.(–§“á8ÅØ‰’¹2J$91bfcb0b-952a-43c1-8087-5ad8bbe2f095
+˜
+java:S1192)"PDefine a constant instead of duplicating this literal "codePrestataire" 3 times.(í¹ˆÁıÿÿÿÿ8‚Çèã¹2J$1bd7ee97-144a-4098-818b-6d1c69d8c4c5
+}
+java:S11414"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ÅØ‰’¹2J$3ad67a76-a8b1-4183-8e16-2ffb9304ec95
+–
+java:S6204¦"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8êØ‰’¹2J$48a1e163-b50e-4864-a06f-a3557f53a1a5
+–
+java:S6204Ì"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ïØ‰’¹2J$37037166-4dab-4829-954b-f7ade030ebf0
+–
+java:S6204ñ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ñØ‰’¹2J$3862e50f-26f2-4da5-bf63-5d9a05ced27b
+–
+java:S6204‘"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8õØ‰’¹2J$1f3f8f81-ee37-4caa-9fd7-6588443b000a
+–
+java:S6204Ò"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8úØ‰’¹2J$fd712f04-a1f1-4ef7-8ccb-d5d41b99ed52

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="BIBLIARD" uuid="318d9144-269b-4629-b237-e3e7de66f042">
+      <driver-ref>db2.jtopen</driver-ref>
+      <jdbc-driver>com.ibm.as400.access.AS400JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:as400://126.0.210.4;libraries=BIBLIARD;</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
