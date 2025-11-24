@@ -1,0 +1,20 @@
+const env = {
+  PORT: 3001,
+  NODE_PATH: "src",
+  REACT_APP_API_URL: "http://localhost:9099",
+  REACT_APP_WEBSITE_NAME: "TIERS360",
+  PUBLIC_URL: "/tiers360",
+
+  //:Keycloak
+  REACT_APP_OIDC_AUTHORITY:
+    "https://access-dy.rmaassurance.com/auth/realms/rma-ad",
+  REACT_APP_OIDC_CLIENT_ID: "auth-ad",
+  REACT_APP_OIDC_REDIRECT_URI: "http://localhost:3001/tiers360",
+};
+
+const setEnv = () => {
+  window._env_ = env;
+};
+setEnv();
+// delete cache
+caches.delete("config-env.js");

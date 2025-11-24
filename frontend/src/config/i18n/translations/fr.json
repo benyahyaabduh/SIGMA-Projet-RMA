@@ -1,0 +1,20 @@
+{
+  "app.rma.transverse.tiers360.admin": "Admin",
+  "app.rma.transverse.tiers360.dashboard": "Accueil",
+  "app.rma.transverse.tiers360.new": "Créer",
+  "app.rma.transverse.tiers360.initialisation": "Initialisation",
+  "app.rma.transverse.tiers360.edit": "Modifier",
+  "app.rma.transverse.tiers360.view": "Consulter",
+  "app.rma.transverse.tiers360.policy": "Police",
+  "app.rma.transverse.tiers360.list": "Liste",
+  "app.rma.transverse.tiers360.tier": "Tier",
+  "app.rma.transverse.tiers360.history": "Historique",
+  "app.rma.transverse.tiers360.legacy": "Synchro",
+  "app.rma.transverse.tiers360.annotation": "Annotation",
+  "app.rma.transverse.tiers360.appetite": "Appétence",
+  "app.rma.transverse.tiers360.totalTiers": "Total Tiers",
+  "app.rma.transverse.tiers360.totalInstances": "Total Instances",
+  "app.rma.transverse.tiers360.totalPolicies": "Total Polices",
+  "app.rma.transverse.tiers360.totalSinistres": "Total Sinistres",
+  "app.rma.transverse.tiers360.totalIntermediaires": "Total Intermediaires"
+}

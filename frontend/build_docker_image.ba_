@@ -1,0 +1,11 @@
+docker build -t trans/tiers360-frontend .
+
+docker tag trans/tiers360-frontend:latest infrarma.rmaassurance.com:9083/trans/tiers360-frontend:latest
+
+docker login infrarma.rmaassurance.com:9083 -u admin -p rmaadmin123
+
+docker push infrarma.rmaassurance.com:9083/trans/tiers360-frontend:latest
+
+docker logout infrarma.rmaassurance.com:9083
+
+ssh devrma@vmcontainer-ny.rmaassurance.com '/app/scripts/transverse/deploy-tiers360-frontend.sh'
